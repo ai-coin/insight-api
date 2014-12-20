@@ -63,7 +63,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "bitcore-aicoin": "https://github.com/ai-coin/bitcore.git",
+    "bitcore-aicoin": "git://github.com/ai-coin/bitcore.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
