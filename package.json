@@ -1,5 +1,5 @@
 {
-  "name": "insight-bitcore-aicoin-api",
+  "name": "insight-bitcore-api",
   "description": "An open-source aicoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.2.12",
   "author": {
@@ -63,7 +63,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "bitcore-aicoin": "git://github.com/ai-coin/bitcore.git",
+    "bitcore": "git://github.com/ai-coin/bitcore.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
