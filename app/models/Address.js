@@ -121,19 +121,20 @@ Address.prototype._addTxItem = function(txItem, txList, includeInfo) {
     seen[txItem.spentTxId]=1;
     addSpend=1;
   }
-  if (txItem.isConfirmed) {
+  //if (txItem.isConfirmed) {
+  if (true) {
     this.txApperances += add;
     this.totalReceivedSat += v;
     if (! txItem.spentTxId ) {
       //unspent
       this.balanceSat   += v;
     }
-    else if(!txItem.spentIsConfirmed) {
-      // unspent
-      this.balanceSat   += v;
-      this.unconfirmedBalanceSat -= v;
-      this.unconfirmedTxApperances += addSpend;
-    }
+//    else if(!txItem.spentIsConfirmed) {
+//      // unspent
+//      this.balanceSat   += v;
+//      this.unconfirmedBalanceSat -= v;
+//      this.unconfirmedTxApperances += addSpend;
+//    }
     else {
       // spent
       this.totalSentSat += v;
